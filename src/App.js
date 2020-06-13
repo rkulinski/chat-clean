@@ -9,6 +9,7 @@ import Profile from "./pages/Profile";
 import ChatContainer from "./pages/ChatContainer";
 import Navbar from "./pages/Navbar";
 import Page404 from "./pages/Page404";
+import PureRedux from "./pages/PureRedux";
 
 import "./App.css";
 
@@ -28,6 +29,9 @@ class App extends React.Component {
               </Route>
               <Route path="/chat-container">
                 <ChatContainer />
+              </Route>
+              <Route path="/pure-redux">
+                <PureRedux />
               </Route>
               <Route path="*">
                 <Page404 />

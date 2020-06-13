@@ -12,6 +12,9 @@ class Navbar extends React.Component {
           <li>
             <NavLink to="/chat-container">Chat</NavLink>
           </li>
+          <li>
+            <NavLink to="/pure-redux">Pure Redux</NavLink>
+          </li>
         </ul>
       </div>
     );
