@@ -5,7 +5,7 @@ const Page404 = () => {
   return (
     <div>
       <h1>404</h1>
-      <img src={Img404} />
+      <img alt="404 obrazek" src={Img404} />
     </div>
   );
 };
