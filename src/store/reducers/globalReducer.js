@@ -1,7 +1,7 @@
 import { SET_USERNAME } from "../consts";
 
 const INIT_STATE = {
-  username: "",
+  username: "John",
 };
 
 const globalReducer = (state = INIT_STATE, action) => {
