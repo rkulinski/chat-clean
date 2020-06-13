@@ -82,7 +82,6 @@ const rootReducer = combineReducers({
 // applyMiddleware
 const logger = ({ getState }) => {
   return (next) => (action) => {
-    console.log("MIDDLEWARE", getState(), action);
     const value = next(action);
     return value;
   };
