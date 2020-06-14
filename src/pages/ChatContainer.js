@@ -1,12 +1,15 @@
 import React from "react";
 import { connect } from "react-redux";
+import ChatComponent from "./ChatComponent";
 
 class ChatContainer extends React.Component {
   render() {
     return (
       <div>
         <h1>Chat</h1>
-        <div>{this.props.username}</div>
+        <div>Piszesz jako: {this.props.username}</div>
+        <hr />
+        <ChatComponent username={this.props.username} />
       </div>
     );
   }
